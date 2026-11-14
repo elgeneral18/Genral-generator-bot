@@ -1,0 +1,18 @@
+# ---- Secrets (never publish the real config) ----
+config.py
+.env
+
+# ---- Runtime data ----
+*.db
+*.db-wal
+*.db-shm
+bot.log*
+data/
+projects/
+zips/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+venv/
+.venv/
